@@ -28,7 +28,7 @@ std.age = 34
 std.grade = "Superior"
 
 puts "Student #{std.name} : #{std.age} : #{std.grade}"
-puts std.jump 2
+puts std.jump
 
 mng = Manager.new
 mng.name = "Clara"
