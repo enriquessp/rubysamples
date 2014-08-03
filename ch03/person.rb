@@ -1,5 +1,9 @@
 class Person
 
+	def initialize
+		puts "Creating a new person!"
+	end
+
 	def set_name(string)
 		puts "Setting the name"
 		@name = string
