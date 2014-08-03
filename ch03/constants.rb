@@ -22,3 +22,5 @@ tk3.price = 503
 
 tk_most_expensive = Ticket.most_expensive(tk1,tk2,tk3)
 puts "The most expensive ticket is #{tk_most_expensive.venue}"
+
+require "./ch03/inheritance.rb"
